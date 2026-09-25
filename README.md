@@ -1,5 +1,26 @@
-# GFL2 Guild OCR Releases
+# GFL2 Guild OCR 배포
 
-This repository contains Windows binary release assets for GFL2 Guild OCR.
+GFL2 길드의 공적·흙먼지 화면을 OCR로 읽고 주간 점수를 관리하는 Windows 프로그램의 공식 배포 저장소입니다.
 
-The source development repository is private.
+- 현재 공개 버전: **v0.1.0**
+- 지원 환경: Windows 64비트. Python 별도 설치 불필요
+- [공식 v0.1.0 다운로드](https://github.com/busikang/gfl2-guild-ocr-releases/releases/tag/v0.1.0)
+- [최신 온라인 사용설명서](사용설명서.txt)
+
+## 설치
+
+1. 배포 페이지에서 `GFL2GuildOCR-v0.1.0-win-x64.zip`을 내려받습니다.
+2. ZIP을 원하는 위치에 **전체 압축 해제**합니다.
+3. `GFL2GuildOCR` 폴더 전체를 유지한 채 그 안의 `GFL2GuildOCR.exe`를 실행합니다.
+
+EXE만 따로 복사하거나 `_internal` 폴더를 삭제하지 마세요. ZIP 내부 설명서는 해당 바이너리를 만들 당시 내용이며, 이후 정리된 안내는 위 온라인 사용설명서에서 확인할 수 있습니다.
+
+## 주요 기능과 데이터
+
+게임 창 캡처·한국어/영어 OCR, 공적·흙먼지 주간 시트, 길드원·별칭 관리, 점수 근거 확인·수정, CSV 내보내기와 업데이트 확인을 제공합니다.
+
+사용자 기록은 프로그램 폴더와 별도의 `%LOCALAPPDATA%\GFL2GuildOCR`에 저장됩니다. 업데이트할 때 이 데이터 폴더를 삭제하지 마세요. 프로그램 안에서는 `도움말 → 업데이트 확인`을 사용할 수 있습니다.
+
+공식 v0.1.0 ZIP의 SHA-256은 `6197f79f8a58b8136415d754a013a5d242e0fed96d8a6e00d2c033707cc89f66`입니다.
+
+이 저장소에는 공개 배포 파일과 사용자 문서만 제공하며, 개발 소스 저장소는 비공개입니다.
