@@ -1,8 +1,8 @@
-GFL2 Guild OCR v0.1.7 사용설명서
+GFL2 Guild OCR v0.1.8 사용설명서
 Windows 64비트
-App Version 0.1.7 / Database Schema v5
+App Version 0.1.8 / Database Schema v5
 
-v0.1.7은 Schema 5를 유지하며 새 마이그레이션이나 기존 기록의 시작 시 일괄 재작성을 추가하지 않습니다.
+v0.1.8은 Schema 5를 유지하며 새 마이그레이션이나 기존 기록의 시작 시 일괄 재작성을 추가하지 않습니다.
 
 첫 실제 실행은 사용자가 직접 합니다. 실제 DB의 별도 수동 사전 백업과 SHA-256 일치를 확인하세요.
 Schema v4 → v5 migration 및 최근 4주보다 오래된 공적 기록/Raw/State/Choice/CSV 정리가 발생할 수 있습니다.
@@ -16,9 +16,9 @@ GFL2 길드의 공적 및 흙먼지 화면을 OCR로 읽고, 길드원별 주간
 2. 다운로드 및 설치
 
 공식 다운로드:
-https://github.com/busikang/gfl2-guild-ocr-releases/releases/tag/v0.1.7
+https://github.com/busikang/gfl2-guild-ocr-releases/releases/tag/v0.1.8
 
-GFL2GuildOCR-v0.1.7-win-x64.zip을 다운로드하여 원하는 위치에 전체 압축을 풉니다. 압축을 푼 GFL2GuildOCR 폴더 안에서 GFL2GuildOCR.exe를 실행하세요. EXE만 다른 곳에 복사하거나 _internal 폴더를 삭제하지 마세요. 이 설명서는 ZIP에도 포함되어 있습니다.
+GFL2GuildOCR-v0.1.8-win-x64.zip을 다운로드하여 원하는 위치에 전체 압축을 풉니다. 압축을 푼 GFL2GuildOCR 폴더 안에서 GFL2GuildOCR.exe를 실행하세요. EXE만 다른 곳에 복사하거나 _internal 폴더를 삭제하지 마세요. 이 설명서는 ZIP에도 포함되어 있습니다.
 
 3. 프로그램 실행
 
@@ -157,7 +157,7 @@ v0.1.3에 포함된 업데이터는 한글·공백 등 원하는 설치 폴더 �
 
 19. 버전 정보
 
-프로그램 버전: 0.1.7
+프로그램 버전: 0.1.8
 Database Schema: 5
 공식 배포 저장소: https://github.com/busikang/gfl2-guild-ocr-releases
 공식 사용설명서: ZIP에 포함된 사용설명서.txt
